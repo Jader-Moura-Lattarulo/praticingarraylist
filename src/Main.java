@@ -16,5 +16,8 @@ public class Main {
         System.out.println(peopleList.size());
         System.out.println(peopleList.get(1));
         System.out.println(peopleList.toString());
+
+//        peopleList.forEach(person -> System.out.println(person));
+        peopleList.forEach(System.out::println);
     }
 }
